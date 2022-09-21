@@ -3,14 +3,14 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Shadows+Into+Light&display=swap');
-/*Color Pallette: #22223b, #4a4e69, #9a8c98, #c9ada7, #f2e9e4*/
+/*Color Pallette: #ffffff, #46494c, #134d5b, #7e8083*/
 
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #ffffff   ;
   --secondary-color: #46494c ;
   --accent1-color: #134d5b;
-  --accent2-color: #112431;
+  --accent2-color: #7e8083;
 
 /* Chosen font: Poppins*/
 
@@ -27,7 +27,7 @@ Fonts are separated by a & */
   --nav-link-color: #ffffff;
   --nav-background-color: #134d5b;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #46494c;
+  --nav-hover-background-color: #7e8083;
 }
 
 
