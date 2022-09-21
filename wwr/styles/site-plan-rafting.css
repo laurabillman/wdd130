@@ -2,7 +2,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Patrick+Hand&display=swap');
 /*Color Pallette: #22223b, #4a4e69, #9a8c98, #c9ada7, #f2e9e4*/
 
 :root {
@@ -15,7 +15,7 @@ Fonts are separated by a & */
 /* Chosen font: Poppins*/
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Permanent Marker";
+  --heading-font: "Patrick Hand";
   --paragraph-font: Monserrat, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
