@@ -83,12 +83,14 @@ nav a:hover {
 
 .msg {
     background-color: rgba(19,77,91, .7);
-    padding:35px;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     color:#46494c;
     padding: 25px 50px;
+    margin_top: 200px;
 }
 
 .home-title {
@@ -148,6 +150,7 @@ h2 {
     }
 .msg p {
     font-size: .8em;
+    padding_bottom: 15px;
 }   
 
 footer .social img {
@@ -156,7 +159,7 @@ footer .social img {
 }    
 
 .rivers-card, .camping-card, .rapids-card {
-    margin-top: 200px;
+    margin-top: 200px 0;
 }
 
 .card-img {
