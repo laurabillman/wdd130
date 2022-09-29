@@ -133,10 +133,11 @@ footer a {
 }
 
 footer p {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 footer p a:hover {
+    color: #b8c4c2;
     text-decoration: none;
 }
 
