@@ -42,6 +42,11 @@ main section {
 
 #background {
     height: 725px;
+    background-color: #b8c4c2 
+
+}
+#msg {
+    height: 200px;
 }
 
 div {
@@ -61,7 +66,7 @@ header {
 }
 
 nav a:hover {
-    color: #46494c;
+    background-color: #aaafb3;
 }
 
 .book, .join {
@@ -74,7 +79,7 @@ nav a:hover {
 }
 
 .book:hover, .join:hover {
-    background-color: rgba(255,255,0, .7);
+    background-color: #aaafb3;
 }
 
 /* #background {
@@ -85,12 +90,14 @@ nav a:hover {
     background-color: rgba(19,77,91, .7);
     line-height: 1.5em;
     padding: 35px;
+    text-align: center;
 }
 
 footer {
-    color:#46494c;
+    background-color:rgba(19,77,91, .7);
+    color: white;
     padding: 25px 50px;
-    margin_top: 200px;
+    margin-top: 200px;
 }
 
 .home-title {
@@ -101,21 +108,23 @@ footer {
 }
 h4 {
     color: #134d5b;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 msg h2 {
     color: #134d5b;
     font-family:  Monserrat, Helvetica, sans-serif;
 }
-msg p {
+
+.msg p {
     color: #134d5b;
     padding-bottom: 15px;
 }
+
 footer h3 {
     color: black; 
 }
 footer a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .icon {
@@ -128,12 +137,14 @@ footer p {
 }
 
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .msg h2 {
     font-family: Monserrat, Helvetica, sans-serif;
-    font-size: 4em;
+    font-size: 2em;
+    color: white;
+    text-align: center;
 }
 
 p {
@@ -149,13 +160,15 @@ h2 {
     font-size: 2em;
     }
 .msg p {
-    font-size: .8em;
-    padding_bottom: 15px;
+    color: white;
+    font-size: 1em;
+    padding-bottom: 15px;
+    text-align: center;
 }   
 
 footer .social img {
     padding-top: 15px;
-    margin-top 200px;
+    margin-top: 20px;
 }    
 
 .rivers-card, .camping-card, .rapids-card {
@@ -163,7 +176,7 @@ footer .social img {
 }
 
 .card-img {
-    border: 10px solid#617975
+    border: 10px solid#b8c4c2
 }
 
 main section img {
@@ -174,3 +187,11 @@ main section img {
     background-color: #617975;
     color: 
 } */
+
+.book {
+    background-color:#b8c4c2;
+}
+
+.join {
+    background-color: #b8c4c2;
+}
