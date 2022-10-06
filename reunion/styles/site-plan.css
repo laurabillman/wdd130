@@ -9,6 +9,7 @@ Fonts are separated by a | */
   --secondary-color: #585B65 ;
   --accent1-color: #BAB7B7;
   --accent2-color: white;
+  /* #F2A183 */
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Patrick Hand";
@@ -40,6 +41,11 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+#logo {
+  width: 300px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
