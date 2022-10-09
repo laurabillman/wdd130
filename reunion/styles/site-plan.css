@@ -179,3 +179,12 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-header {
+  grid-column-start: 1/3;
+}
