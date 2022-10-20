@@ -1,3 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+
 .logo {
-    width: 80px
+    width: 80px;
+}
+
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    justify-items: center;
+}
+
+.home-grid img {
+    height: 400px;
+}
+
+.home-title {
+    color: #d6dce0;
+    font-family: 'Shadows Into Light', 'Bradley Hand', sans-serif; 
+    font-size: 8em;
+    margin-top: 50px;
+}
+
+#hero {
+     background-image: url("/images/hero.png");
+     background-size: cover;
+     height: 400px;
+}
+
+#hero-box {
+    grid-column:  1/3;
+    grid-row: 1/3;
+    z-index: -1;
+    
+}
+
+#hero-img {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    width: 100%;
+    height: 65%;
+  
+}
+
+#hero-msg {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+#hero-msg h1 {
+    text-align: center;
+    color: white;
+    font-size: 4em;
+}
+
+#main-box {
+    background-color: rgba(19,77,91, .7);
+    line-height: 1.5em;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+
+
+.reunion-info h2 {
+    font-family: Monserrat, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    }
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:rgba(19,77,91, .7);
+}
+
+nav {
+    text-align: bottom;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #aaafb3;
+}  
+
+nav a {
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    padding: 35px;
+    margin: 0;
+  
+}
+
+footer {
+    background-color:rgba(19,77,91, .7);
+    color: white;
+    padding: 25px 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color:white;
 }
