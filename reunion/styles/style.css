@@ -77,12 +77,16 @@
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.reunion-info h2 {
+h1 {
+    font-family: 'Patrick Hand','Raleway', 'sans-serif';
+}
+.reunion-info  {
     font-family: 'Patrick Hand', 'Raleway', 'sans-serif';
-    font-size: 1.5em;
+    font-size: 3em;
     color: black;
     text-align: center;
     }
+    
 
 header {
     display: grid;
