@@ -12,19 +12,18 @@
 
 
 .logo {
-    width: 80px;
+    width: 200px;
 }
 
 
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 40px;
     justify-items: center;
 }
 
 .home-grid img {
-    height: 400px;
+    width: 100%;
 }
 
 .home-title {
@@ -65,7 +64,7 @@
 #hero-msg h1 {
     text-align: center;
     color: white;
-    font-size: 3.5em;
+    font-size: 5em;
 }
 
 #main-box {
@@ -117,12 +116,103 @@ footer {
     background-color:rgba(19,77,91, .7);
     color: white;
     padding: 25px 50px;
-    margin-top: 40px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
+footer p {
+    margin-right: 30px;
+}
+
 footer a {
-    color:white;
+    color: white;
+    margin-left: 20px;
+}
+
+
+/* new css second page - prices and dates */
+
+
+#hero-msg2 h1 {
+    font-size: 4.5em;
+    text-align: center;
+    color: #134d5b;;
+}
+
+#main-box2 {
+    height: 500px;
+    background-color: #BAB7B7;
+    line-height: 1.5em;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#main-box2 h2 {
+    color: #134d5b;
+    font-size: 2.5em;
+}
+
+.itinerary_info h2 {
+    font-size: 40px;
+}
+
+#background {
+    height: 675px;
+    background-color: #b8c4c2; 
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.menu-info h2 {
+    font-family: 'Patrick Hand', 'Raleway', 'sans-serif';
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.dinner-info h4 {
+    padding: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.food-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    justify-items: center;
+}
+
+.grid-gap-130 {
+    grid-gap: 130px;
+}
+
+.food-grid li {
+    font-size: 30px;
+}
+
+
+.card-img1 {
+    width: 100%;
+    margin-top: 75px;
+}
+.card-img2 {
+    width: 100%;
+    margin-top: 75px;
+}
+
+.menu-list  {
+    font-size: 30px;
+}
+
+#sign-up-container {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 82px;
+}
+
+.margin-top-125 {
+    margin-top: 125px;
 }
