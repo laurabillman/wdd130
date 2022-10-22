@@ -93,24 +93,6 @@ header {
     background-color:rgba(19,77,91, .7);
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-
-nav a:hover {
-    background-color: #aaafb3;
-}  
-
-nav a {
-    font-size: 35px;
-    text-decoration: none;
-    color: white;
-    margin: 0;
-  
-}
-
 
 footer {
     background-color:rgba(19,77,91, .7);
@@ -127,7 +109,7 @@ footer p {
 
 footer a {
     color: white;
-    margin-left: 400px;
+    margin-left: 150px;
     font-size: 25px;
 
 }
