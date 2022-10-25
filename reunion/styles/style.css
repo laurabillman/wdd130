@@ -63,34 +63,31 @@
 }
 
 #main-box {
-    background-color: #BAB7B7;
+    background-color: #dad6d6;
     line-height: 1.5em;
     padding: 30px;
     margin-top: 40px;
     text-align: center;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
 h1 {
     font-family: 'Patrick Hand','Raleway', 'sans-serif';
 }
 .reunion-info  {
-    font-family: 'Patrick Hand', 'Raleway', 'sans-serif';
     font-size: 3em;
-    color: black;
+    color: #699D9F;
     text-align: center;
     }
-    
 
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color:rgba(19,77,91, .7);
+    background-color:#699D9F;
 }
 
 
 footer {
-    background-color:rgba(19,77,91, .7);
+    background-color:#699D9F;
     color: white;
     padding: 25px 50px;
     display: flex;
@@ -110,23 +107,23 @@ footer a {
 }
 
 footer a:hover {
-    background-color: #aaafb3;
+    background-color: #585b65;
 }
 
 
 
-/* new css second page - prices and dates */
+/* new css second page - food */
 
 
 #hero-msg2 h1 {
     font-size: 4.5em;
     text-align: center;
-    color: #134d5b;;
+    color: #699D9F;
 }
 
 #main-box2 {
     height: 500px;
-    background-color: #BAB7B7;
+    background-color: #dad6d6;
     line-height: 1.5em;
     padding: 30px;
     margin-top: 50px;
@@ -135,10 +132,13 @@ footer a:hover {
 }
 
 #main-box2 h2 {
-    color: #134d5b;
+    color: #699D9F;
     font-size: 2.5em;
 }
-
+#main-box2 h3 {
+    color: black;
+    font-size: 30px;
+}
 .itinerary_info h2 {
     font-size: 40px;
 }
@@ -158,9 +158,15 @@ footer a:hover {
     padding: 30px;
 }
 .dinner-info h4 {
-    padding: 30px;
-    font-size: 20px;
+    margin-top: 45px;
+    font-size: 25px;
     color: black;
+}
+
+.dinner-info h3 {
+    margin-top: 45px;
+    font-size: 25px;
+    color: #699D9F;
 }
 
 .food-grid {
@@ -259,7 +265,104 @@ ul.breadcrumb {
   
   /* Add a color on mouse-over */
   ul.breadcrumb li a:hover {
-    color: #aaafb3;
+    color: #585b65;
     text-decoration: underline;
   }
   
+  
+/* new css third page - activities */
+
+
+
+.activities-title {
+    color: #d6dce0;
+    font-family: 'Patrick Hand', 'Raleway', 'Roboto', 'sans-serif'; 
+    font-size: 3em;
+    margin-top: 50px;
+}
+
+
+
+
+.hero-box3 {
+    font-size: 4.5em;
+    text-align: center;
+  
+}
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    justify-items: center;
+}
+
+#hero-msg3 h1 {
+    font-size: 4.5em;
+    text-align: center;
+    color: #699D9F;
+}
+
+#main-box3 {
+    height: 500px;
+    background-color: #dad6d6;
+    line-height: 1.5em;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#main-box3 h2 {
+    color: #699D9F;
+    font-size: 2.5em;
+}
+
+#main-box3 h4 {
+    font-size: 1.5em;;
+}
+
+#main-box3 h3 {
+    color: #699D9F;
+    font-size: 2em;
+}
+
+
+.activities-info h3 {
+    font-size: 100em;
+}
+.activities-grid li {
+    font-size: 30px;
+}
+
+.card-img3 {
+    width: 100%;
+    margin-top: 75px;
+}
+.card-img4 {
+    width: 100%;
+    margin-top: 75px;
+}
+
+
+
+.activities-list  {
+    font-size: 30px;
+}
+
+.activities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+#sign-up-container {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 82px;
+}
+
+.margin-top-125 {
+    margin-top: 125px;
+}
+
+
