@@ -350,11 +350,12 @@ ul.breadcrumb {
     font-size: 30px;
 }
 
-.activities {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+.movie-list {
+    font-size: 30px;
+   
 }
+
+
 #sign-up-container {
     font-size: 24px;
     text-align: center;
